@@ -1,0 +1,8 @@
+mkdir llm-benchmark
+cd llm-benchmark
+mkdir -p src/{models,benchmarks,evaluation,utils}
+mkdir -p data/{AIME,Codeforces,GPQA,MATH-500,MMLU,SWE-bench}
+mkdir results
+touch requirements.txt
+touch README.md
+touch main.py 
